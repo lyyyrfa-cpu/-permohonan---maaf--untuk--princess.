@@ -44,8 +44,7 @@ function drawText() {
         "Dan sekali lagi… maaf ya, Kaka 🤍"
     ];
 
-    // total durasi 360 frame ≈ 6 detik
-    let scrollSpeed = 1.5;
+    let scrollSpeed = 4; 
     let startY = canvas.height - (frameNumber * scrollSpeed);
 
     for (let i = 0; i < fullMessage.length; i++) {
