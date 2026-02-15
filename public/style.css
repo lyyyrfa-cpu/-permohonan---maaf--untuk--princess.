@@ -8,15 +8,15 @@ html, body {
 canvas {
     width: 100%;
     height: auto;
-    background: #111;
+    background: #ffb6c1;
 }
 
 #valentinesButton {
     display: none;
     position: absolute;
-    background-color: #2d2dff;
-    border: 2px solid #2d2dff;
-    color: #fff;
+    background-color: #ff69b4;
+    border: 2px solid #ff69b4;
+    color: #ffb6c1;
     cursor: pointer;
     height: 50px;
     font-size: 16px;
@@ -29,6 +29,6 @@ canvas {
   }
 
   #valentinesButton:hover {
-    background-color: #1f1faa;
+    background-color: #ffc0cb;
     color: #eee;
 }
